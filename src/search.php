@@ -25,10 +25,10 @@ function options($array, $selected)
 ?>
 
 <form action="" method="get">
-     <!-- <label for="shows">Show me a</label>
+     <label for="shows">Show me a</label>
     <select id="shows" name="F" title="Show me a">
         <?php options($shows, $show_type) ?>
-    </select> -->
+    </select>
     <label for="sorts">Sorted by</label>
     <select id="sorts" name="C" title="Sorted by">
         <?php options($sorts, $sorter) ?>
