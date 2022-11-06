@@ -1,0 +1,104 @@
+Options +Indexes
+
+IndexOptions +FancyIndexing
+
+IndexOptions +FoldersFirst
+
+IndexOptions +XHTML
+
+IndexOptions +SuppressRules
+
+IndexIgnore .htaccess /src .ini .code-workspace
+
+IndexStyleSheet "/src/style.css"
+HeaderName /src/header.php
+ReadmeName /src/footer.html
+ERRORDOCUMENT 404 /src/404.php
+
+IndexHeadInsert "<link rel=\"icon\" type=\"image/png\" href=\"/src/icons/xampp.png\">"
+
+DefaultIcon /src/icons/file.svg
+AddIcon /src/icons/folder-base.svg ^^DIRECTORY^^
+
+AddIcon /src/icons/back-arrow.svg ..
+
+AddIcon /src/icons/image.svg .jpg .png .gif .tif .tiff .jpeg .bmp
+AddIcon /src/icons/favicon.svg .ico
+AddIcon /src/icons/svg.svg .svg
+
+AddIcon /src/icons/java.svg .java
+AddIcon /src/icons/jar.svg .jar
+
+AddIcon /src/icons/console.svg .bat .sh
+
+AddIcon /src/icons/git.svg .git .gitignore
+
+AddIcon /src/icons/html.svg .html .hrm .xhtml
+AddIcon /src/icons/php.svg .php
+AddDescription "Archivo php" .php
+AddIcon /src/icons/css.svg .css
+AddIcon /src/icons/sass.svg .sass .scss
+AddIcon /src/icons/javascript.svg .js
+AddIcon /src/icons/react.svg .jsx
+AddIcon /src/icons/typescript.svg .ts .d.ts
+AddIcon /src/icons/react_ts.svg .tsx
+
+AddIcon /src/icons/database.svg .sql .db .session.sql .sql.gz
+
+AddIcon /src/icons/json.svg .json
+
+AddIcon /src/icons/zip.svg .zip .rar .tar .gz
+
+AddIcon /src/icons/todo.svg .todo
+
+AddIcon /src/icons/xml.svg .xml
+AddIcon /src/icons/document.svg .txt
+
+AddIcon /src/icons/python.svg .py
+
+AddIcon /src/icons/readme.svg .md
+AddIcon /src/icons/markdown.svg .markdown
+
+AddIcon /src/icons/audio.svg .mp3 .aac .wma .ogg
+
+AddIcon /src/icons/word.svg .doc .docx
+AddIcon /src/icons/table.svg .xls .xlsx
+AddIcon /src/icons/powerpoint.svg .ppt .pptx
+
+AddIcon /src/icons/font.svg .ttf .TTF .woff .woff2 .WOFF .WOFF2 .otf .OTF .eot .EOT
+
+AddIcon /src/icons/settings.svg .properties
+
+AddIcon /src/icons/gradle.svg .gradle gradlew
+AddIcon /src/icons/prolog.svg .pro
+
+AddIcon /src/icons/android.svg .apk
+
+AddIcon /src/icons/folder-vscode.svg .code-workspace
+AddIcon /src/icons/folder-android.svg '*/apk' '*/android'
+AddIcon /src/icons/folder-tools.svg '*/option' '*/options'
+AddIcon /src/icons/folder-font.svg '*/font' '*/fonts'
+AddIcon /src/icons/folder-css.svg '*/css' '*/style' '*/styles'
+AddIcon /src/icons/folder-images.svg '*/img' '*/image' '*/images'
+AddIcon /src/icons/folder-include.svg '*/include' '*/includes'
+AddIcon /src/icons/folder-javascript.svg '*/js' '*/javascript' '*/script'
+AddIcon /src/icons/folder-app.svg '*/main' '*/app'
+AddIcon /src/icons/folder-gradle.svg '*/.gradle' '*/gradle'
+AddIcon /src/icons/folder-public.svg '*/public' '*/publics'
+AddIcon /src/icons/folder-docs.svg '*/doc' '*/docs'
+AddIcon /src/icons/folder-examples.svg '*/example' '*/examples'
+AddIcon /src/icons/folder-test.svg '*/test' '*/tests'
+AddIcon /src/icons/folder-event.svg '*/event' '*/events'
+AddIcon /src/icons/folder-api.svg '*/api' '*/apis'
+AddIcon /src/icons/folder-src.svg '*/src' '*/source' '*/sources'
+AddIcon /src/icons/folder-lib.svg '*/lib' '*/libs'
+AddIcon /src/icons/folder-log.svg '*/log' '*/logs'
+AddIcon /src/icons/folder-debug.svg '*/debug' '*/debugs'
+AddIcon /src/icons/folder-dist.svg '*/build' '*/builds'
+AddIcon /src/icons/folder-layout.svg '*/layout' '*/layouts'
+AddIcon /src/icons/folder-review.svg '*/output' '*/outputs'
+AddIcon /src/icons/folder-temp.svg '*/tmp' '*/temp' '*/temps'
+AddIcon /src/icons/folder-generator.svg '*/generate' '*/generated'
+AddIcon /src/icons/folder-src.svg '*/src' '*/source' '*/sources'
+AddIcon /src/icons/folder-phpmailer.svg '*/PHPMailer'
+AddIcon /src/icons/folder-i18n.svg '*/es' '*/en'
