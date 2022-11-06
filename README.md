@@ -18,7 +18,7 @@ This page is generated automatically so it has had to be hydrated with CSS, PHP 
 
 ### Installation ⚙️
 
-For the installation you only need to put the src folder and the .htaccess file at the root of the XAMPP htdocs folder.
+For the installation you only need to put the src folder and the .htaccess file at the root of the XAMPP htdocs folder and create a new folder for each new proyect that you need.
 
 ### Better Breadcrumb 🍞
 
@@ -61,6 +61,8 @@ This project was done in a weekend so there is still a lot to do, if you want to
 Finally I think it's a great progress to go from this to this...
 
 <img src="src/images/current.png" alt="changes">
+
+...and if you like this, i'll so glad for receive a star ⭐! C:
 
 <h2>Developed with ❤️ by edgarguitarist</h2>
 
