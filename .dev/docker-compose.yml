@@ -1,4 +1,4 @@
-# Entorno de desarrollo para better-xampp-htdocs-folder.
+# Entorno de desarrollo para htdocs-explorer.
 # Replica Apache + PHP + mod_autoindex (lo mismo que XAMPP, sin MySQL ni instalar nada).
 #
 # Uso:

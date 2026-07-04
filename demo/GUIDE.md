@@ -14,4 +14,4 @@ const saludo = (nombre) => `Hola, ${nombre}!`;
 console.log(saludo("mundo"));
 ```
 
-Ver el [repositorio](https://github.com/edgarguitarist/better-xampp-htdocs-folder).
+Ver el [repositorio](https://github.com/edgarguitarist/htdocs-explorer).

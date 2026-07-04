@@ -4,7 +4,7 @@ Guidance for working in this repository.
 
 ## What this is
 
-**better-xampp-htdocs-folder** replaces the ugly default XAMPP `htdocs` page with a
+**htdocs-explorer** replaces the ugly default Apache/PHP directory listing with a
 modern, browser-based **file explorer** (Windows-Explorer style): tree sidebar,
 multiple views, live preview pane, inline editing, and full file management
 (create / rename / delete / copy / move / upload / extract).

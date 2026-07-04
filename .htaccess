@@ -1,4 +1,4 @@
-# better-xampp-htdocs-folder — enrutado del explorador moderno.
+# htdocs-explorer — enrutado del explorador moderno.
 #
 # Idea: cualquier carpeta que NO tenga su propio index.(php|html) se sirve con el
 # explorador (src/app.php). Las carpetas que sí tienen index se dejan intactas,
