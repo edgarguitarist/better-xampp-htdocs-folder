@@ -302,10 +302,15 @@ body.no-preview .resizer[data-resize="preview"] { display: none; }
   background: var(--surface); border-top: 1px solid var(--border);
 }
 .statusbar #statusbar { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-.credit { flex: none; white-space: nowrap; }
+.footer-meta { flex: none; display: flex; align-items: center; gap: 12px; white-space: nowrap; }
+.footer-meta .server-sig + .credit { padding-left: 12px; border-left: 1px solid var(--border); }
+.server-sig { color: var(--muted); }
+.credit { white-space: nowrap; }
 .credit a { color: var(--accent); text-decoration: none; }
 .credit a:hover { text-decoration: underline; }
 .credit .heart { color: #e5484d; }
+@media (max-width: 720px) { .server-sig { display: none; }
+  .footer-meta .server-sig + .credit { padding-left: 0; border-left: 0; } }
 
 /* ------------------------------ galería ------------------------------ */
 .listing.view-gallery {

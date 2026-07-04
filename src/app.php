@@ -19,6 +19,11 @@ $caps = array_keys(array_filter([
     'upload' => ALLOW_UPLOAD,
     'extract' => ALLOW_EXTRACT,
 ]));
+
+// Firma del servidor, como la que Apache muestra por defecto en sus listados.
+$serverSig = ($_SERVER['SERVER_SOFTWARE'] ?? 'Apache')
+    . ' Server at ' . ($_SERVER['SERVER_NAME'] ?? 'localhost')
+    . ' Port ' . ($_SERVER['SERVER_PORT'] ?? '80');
 ?><!DOCTYPE html>
 <html lang="es">
 <head>
@@ -95,8 +100,11 @@ $caps = array_keys(array_filter([
 
   <footer class="statusbar">
     <span id="statusbar"></span>
-    <span class="credit">Developed with <span class="heart">❤️</span> by
-      <a href="https://github.com/edgarguitarist" target="_blank" rel="noopener">edgarguitarist</a>
+    <span class="footer-meta">
+      <span class="server-sig"><?= htmlspecialchars($serverSig) ?></span>
+      <span class="credit">Developed with <span class="heart">❤️</span> by
+        <a href="https://github.com/edgarguitarist" target="_blank" rel="noopener">edgarguitarist</a>
+      </span>
     </span>
   </footer>
 
