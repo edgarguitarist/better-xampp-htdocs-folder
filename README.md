@@ -1,6 +1,10 @@
 # htdocs-explorer
 
-The default directory listing of an Apache/PHP server (the classic XAMPP `htdocs` page, a LAMP box, cheap shared hosting…) is outdated and ugly. **This replaces it with a modern file explorer** — think Windows Explorer in your browser: a clean listing, a live preview pane, keyboard navigation and instant search. 🚀
+The default directory listing of an Apache/PHP server (the classic XAMPP `htdocs` page, a LAMP box, cheap shared hosting…) is outdated and ugly — something like this:
+
+<p align="center"><img src="screenshots/default-apache-listing.png" alt="The default Apache 'Index of /' directory listing" width="420" /></p>
+
+**htdocs-explorer replaces it with a modern file explorer** — think Windows Explorer in your browser: a clean listing, a live preview pane, keyboard navigation and instant search. 🚀
 
 Just drop it into your web root (`htdocs`, `www`, `public_html`…) and browse to `http://localhost`. Every folder that doesn't have its own `index` file is served with the explorer automatically, so you can walk through any project without losing the nice UI.
 
