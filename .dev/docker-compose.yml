@@ -1,0 +1,23 @@
+# Entorno de desarrollo para better-xampp-htdocs-folder.
+# Replica Apache + PHP + mod_autoindex (lo mismo que XAMPP, sin MySQL ni instalar nada).
+#
+# Uso:
+#   cd .dev
+#   docker compose up
+#   -> abre http://localhost:8080
+#   docker compose down   (para apagarlo, no queda rastro)
+
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: better-xampp-dev
+    ports:
+      - "8080:80"
+    volumes:
+      # Monta el repo completo como htdocs
+      - ../:/var/www/html
+      # Habilita .htaccess (AllowOverride All) para que se lea tu configuración
+      - ./allow-override.conf:/etc/apache2/conf-enabled/zz-allow-override.conf:ro
+    working_dir: /var/www/html
