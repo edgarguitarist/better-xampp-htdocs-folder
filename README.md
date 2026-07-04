@@ -4,7 +4,9 @@ The default directory listing of an Apache/PHP server (the classic XAMPP `htdocs
 
 Just drop it into your web root (`htdocs`, `www`, `public_html`…) and browse to `http://localhost`. Every folder that doesn't have its own `index` file is served with the explorer automatically, so you can walk through any project without losing the nice UI.
 
-![list view](src/icons/xampp.png)
+![htdocs-explorer in dark mode — file explorer with a live video preview](screenshots/dark-media-preview.png)
+
+![htdocs-explorer in light mode — gallery view](screenshots/light-gallery.png)
 
 ## Features ✨
 
